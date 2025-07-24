@@ -68,7 +68,32 @@ lib/
 ├── class_selection_page.dart    # Class card selection screen
 ├── student_management_page.dart # Placeholder for class management screen
  ```
+### 📦 Hive Database Setup
+*🐝 Used Hive for lightweight local database
+*Created a Student model with @HiveType and @HiveField
+*Registered adapters during app initialization
+*Performed full CRUD operations:
+*Add student
+*View list of students
+*Edit student details
+*Delete student
+*Each class (10th/11th/12th) stores data in a different Hive box
 
+### 🔮 Future Enhancements
+📊 Visual dashboard with student analytics
+🧪 Unit & widget testing
 
+### 🛠 Built With
+Flutter
+Dart
+Hive - Lightweight NoSQL DB for Flutter
+### 🤝 Contributing
+Contributions are welcome!
 
+### 📄 License
+This project is licensed under the MIT License.
+
+### 👤 Author
+Seshathri
+🔗 GitHub Profile-https://github.com/seshathri044
 
