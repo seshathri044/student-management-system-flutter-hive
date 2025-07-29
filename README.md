@@ -17,36 +17,36 @@ lib/
 └── main.dart            # App entry point
  ```
 ### 📌 Highlights:
-Data Layer → Hive DB (local storage)
-Domain Layer → Use cases (add, update, delete, fetch students)
-Presentation Layer → Clean UI with Flutter
+- Data Layer → Hive DB (local storage)
+- Domain Layer → Use cases (add, update, delete, fetch students)
+- Presentation Layer → Clean UI with Flutter
 
 ## ✨ Features
 
-✅ Modern welcome and class selection screens
-✅ Create, Read, Update, Delete **(CRUD)** students
-✅ Persistent storage using **Hive DB**
-✅ Class-wise separation of students (10th, 11th, 12th)
-✅ Beautiful and responsive UI
-✅ Compatible with Flutter Web, Windows, and Mobile
-✅ Structured with **Clean Architecture** (data → domain → presentation)
-✅ Robust input validation & error handling (empty fields, duplicate roll numbers, etc.)
-✅ Dependency Injection (InjectionContainer) for scalable architecture
-✅ Repository pattern for clean data access
-✅ **CI/CD with GitHub Actions** – automated build & test on every push
-✅ Ready for unit tests with a dedicated test/ folder
-
+- ✅ Modern **welcome** and **class selection** screens  
+- ✅ **CRUD (Create, Read, Update, Delete)** students  
+- ✅ Persistent storage using **Hive DB**  
+- ✅ Class‑wise separation of students (10th, 11th, 12th)  
+- ✅ Beautiful and **responsive UI**  
+- ✅ Works on **Flutter Web, Windows, and Mobile**  
+- ✅ Structured with **Clean Architecture**  
+- ✅ Dependency Injection (`InjectionContainer`)  
+- ✅ Repository pattern for clean data access  
+- ✅ **Error handling & validation** (empty fields, duplicate roll numbers, invalid age)  
+- ✅ **CI/CD with GitHub Actions** (automatic tests on push/PR)  
+- ✅ Ready for **unit tests** with `test/` folder  
+- ✅ Extensible → Authentication, charts, CSV export in future  
 ---
-### 📦 Hive Database 
-*🐝 Used Hive for lightweight local database
-*Created a Student model with @HiveType and @HiveField
-*Registered adapters during app initialization
-*Performed full CRUD operations:
-*Add student
-*View list of students
-*Edit student details
-*Delete student
-*Each class (10th/11th/12th) stores data in a different Hive box
+### 📦 Hive Database  
+- 🐝 Used **Hive** for lightweight local database  
+- Created a **Student model** with `@HiveType` and `@HiveField`  
+- Registered **adapters** during app initialization  
+- Performed full **CRUD operations**:  
+  - Add student  
+  - View list of students  
+  - Edit student details  
+  - Delete student  
+- Each class (**10th / 11th / 12th**) stores data in a **different Hive box**  
 
 ## 📷 Screenshots
  **Welcome Page**
@@ -99,11 +99,12 @@ For Android/iOS Emulator:
 flutter run
  ```
 
-### 🚀 CI/CD Setup (GitHub Actions)
-This repo includes a workflow that:
-Runs flutter test automatically on every push/PR
-Ensures code quality & reliability
-CI/CD Status: ✅ Passed
+### 🚀 CI/CD Setup (GitHub Actions)  
+This repo includes a **workflow** that:  
+- ✅ Runs `flutter test` automatically on every push/PR  
+- ✅ Ensures **code quality & reliability**  
+CI/CD Status:  
+![Flutter CI](https://github.com/seshathri044/student-management-system-flutter-hive/actions/workflows/flutter-ci.yml/badge.svg)  
 
 ###  🗂 Project Structure
 ```bash
@@ -116,13 +117,6 @@ lib/
     ├──  presentation/        # UI screens
 test/                         # Unit tests
  ```
-
-### 🛠️ Tech Stack
-Flutter (3.32.7)
-Dart (3.8.1)
-Hive DB (local persistent storage)
-Clean Architecture (Data → Domain → Presentation)
-GitHub Actions (CI/CD)
 
 ### 🤝 Contributing
 Contributions are welcome!
