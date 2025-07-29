@@ -1,7 +1,7 @@
 # 🎓 Student Management System (Flutter + Hive DB)
 
 A beautiful and responsive **Flutter** application to manage student records by class. This app allows users to select a class (10th, 11th, 12th), view, add, edit, and delete student records using **Hive DB** for local data persistence. Designed with modular and scalable code for mobile and web platforms.
-🏗️ Architecture
+###  🏗️ Architecture
  ```bash
 lib/
 ├── core/                # Common utilities, DI container, error handling
