@@ -129,7 +129,7 @@ Contributions are welcome!
 This project is licensed under the MIT License.
 
 ### 👤 Author
-Seshathri
-🚀 Aspiring Software Engineer | Passionate about Flutter & Java
-🔗 GitHub Profile-https://github.com/seshathri044
+-  Seshathri
+- 🚀 Aspiring Software Engineer | Passionate about Flutter & Java
+- 🔗 GitHub Profile-https://github.com/seshathri044
 
