@@ -1,4 +1,5 @@
 # 🎓 Student Management System (Flutter + Hive DB)
+![Flutter CI](https://github.com/seshathri044/student-management-system-flutter-hive/actions/workflows/flutter-ci.yml/badge.svg)  
 
 A **modern and responsive Flutter application** for managing student records across different classes (10th, 11th, 12th).  
 Built with **Hive DB** for fast and lightweight local storage, following **Clean Architecture** principles to ensure scalability, maintainability, and performance.  
