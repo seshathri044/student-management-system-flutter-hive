@@ -6,6 +6,8 @@ Built with **Hive DB** for fast and lightweight local storage, following **Clean
 
 ✨ Supports **mobile, web, and desktop platforms**, with a clean UI and complete **CRUD functionality** (Create, Read, Update, Delete).
 
+- Live Demo [Student Management System](https://seshathri044.github.io/student-management-system-flutter-hive/)
+
 ###  🏗️ Architecture
  ```bash
 lib/
