@@ -38,11 +38,8 @@ lib/
 - ✅ Works on **Flutter Web, Windows, and Mobile**  
 - ✅ Structured with **Clean Architecture**  
 - ✅ Dependency Injection (`InjectionContainer`)  
-- ✅ Repository pattern for clean data access  
 - ✅ **Error handling & validation** (empty fields, duplicate roll numbers, invalid age)  
 - ✅ **CI/CD with GitHub Actions** (automatic tests on push/PR)  
-- ✅ Ready for **unit tests** with `test/` folder  
-- ✅ Extensible → Authentication, charts, CSV export in future  
 ---
 ### 📦 Hive Database  
 - 🐝 Used **Hive** for lightweight local database  
