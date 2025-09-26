@@ -30,7 +30,7 @@ lib/
 
 ## ✨ Features
 
-- ✅ Modern **welcome** and **class selection** screens  
+- ✅ **welcome** and **class selection** screens  
 - ✅ **CRUD (Create, Read, Update, Delete)** students  
 - ✅ Persistent storage using **Hive DB**  
 - ✅ Class‑wise separation of students (10th, 11th, 12th)  
